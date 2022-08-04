@@ -63,6 +63,7 @@ header > nav > a:hover {
 
 /* Main */
 main {
+    position: relative;
     background-color: #fff;
     width: 52.2%;
     margin: auto;
@@ -89,6 +90,30 @@ main > p {
     font-family: var(--fonte0);
     line-height: 2em
 }
+/* Imagens */
+img {padding: 30px 0px;}
+.img-full {width: 100%;}
+.img-center {display: block; margin: auto;}
+
+/* iframe */
+iframe {
+    margin: 2.5% 5% 2.5% 5%;
+    width: 90%;
+    height: 90%;
+}
+.iframe-pai {
+    margin: 15px 0px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+    background-color: var(--cor5);
+}
+main > aside{
+    margin-top: 630px;
+}
+
+/* Classes */
 .hyperlink {
     font-weight: bolder;
     color: var(--cor5);
