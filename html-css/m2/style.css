@@ -157,3 +157,11 @@ footer{
     text-decoration: none;
     padding: 3px 1px 3px 3.5px;
 }
+.hyperlink:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+strong {
+    color: var(--cor4);
+    font-weight: 550;
+}
