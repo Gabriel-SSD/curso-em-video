@@ -70,6 +70,8 @@ main {
     padding: 1.5em;
     min-width: 375px;
     max-width: 1000px;
+    margin-bottom: 50px;
+    border-radius: 0px 0px 10px 10px;
 }
 main > h1,h2 {font-family: var(--fonte2); }
 
@@ -136,6 +138,14 @@ main > aside > ul, p{
     padding: 10px 10px 0px 10px;
     line-height: 1.5em;
     font-size: 1.2em;
+}
+
+/* Footer */
+footer{
+    background-color: #063d1e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
 
 
