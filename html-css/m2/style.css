@@ -16,7 +16,37 @@
     --cor3: #2FA866;
     --cor4: #1A5C37;
     --cor5: #063d1e;
-    --font0: Arial, Helvetica, sans-serif;
+    --fonte0: Arial, Helvetica, sans-serif;
     --fonte1: 'Bebas Neue', cursive;
     --fonte2: 'Android', sans-serife;
+}
+
+/* Header */
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+}
+header > h1{
+    color: #fff;
+    font-family: var(--fonte1);
+    font-size: 3em;
+    text-align: center;
+    padding: 30px;
+}
+header > p{
+    color: #fff;
+    font-family: var(--fonte0) ;
+    text-align: center;
+    padding-bottom: 30px;
+}
+header > nav {padding-bottom: 15px;}
+header > nav > a{
+    text-decoration: none;
+    color: var(--cor2);
+    font-family: var(--fonte0);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+header > nav > a:hover {
+    background-color: var(--cor4);
+    transition: .3s ease-in-out;
 }
