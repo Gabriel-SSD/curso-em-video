@@ -31,6 +31,18 @@ header > p > a {
     color: #fff;
     font-weight: 600;
 }
+/* Sections */
+
+section {
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+/* Section imp */
+
+
+
+/* Section par */
 
 
 
@@ -40,8 +52,7 @@ header > p > a {
 
 
 
-
-
+/* Atribuições generalistas */
 a:hover {
     text-decoration: underline #fff;
 }
