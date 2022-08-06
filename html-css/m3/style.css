@@ -2,7 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 /* Reset */
-* {margin: 0; padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    font-family: var(--fonte1);
+}
 
 /* Variáveis */
 :root {
@@ -16,43 +25,65 @@ header {
     background-color: black;
     color: #fff;
     text-align: center;
-    padding: 60px 0px;
+    padding: 50px 0px;
 }
-header > h1{
+
+header>h1 {
     font-variant: small-caps;
     font-family: var(--fonte2);
     font-size: 10vw;
 }
-header > p {
-    font-family: var(--fonte1);   
+
+header>p {
+    padding: 0;
+    font-family: var(--fonte1);
 }
-header > p > a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-}
+
 /* Sections */
 
 section {
     font-family: var(--fonte3);
     font-size: 3.5vw;
     line-height: 2em;
+    padding: 82px 0px 82px 30px;
 }
-/* Section imp */
 
+#bg1 {
+    background: url(media/background001.jpg) right center / cover no-repeat fixed;
+}
 
+#bg2 {
+    background: url(media/background002.jpg) left top / cover no-repeat fixed;
+}
 
-/* Section par */
+.translucid {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+}
 
+/* Footer */
 
-
-
-
-
-
-
+footer {
+    padding: 5px;
+    background-color: #000;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
 
 /* Atribuições generalistas */
+p {
+    padding-bottom: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
 a:hover {
     text-decoration: underline #fff;
 }
