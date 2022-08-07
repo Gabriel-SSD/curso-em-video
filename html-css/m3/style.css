@@ -50,10 +50,12 @@ section {
 
 #bg1 {
     background: url(media/background001.jpg) right center / cover no-repeat fixed;
+    box-shadow: inset 0px 1px 10px 5px rgba(0, 0, 0, 0.271)
 }
 
 #bg2 {
     background: url(media/background002.jpg) left top / cover no-repeat fixed;
+    box-shadow: inset 0px 1px 10px 5px rgba(0, 0, 0, 0.271)
 }
 
 .translucid {
