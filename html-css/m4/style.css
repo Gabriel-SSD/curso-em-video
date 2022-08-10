@@ -10,6 +10,7 @@ body {
     background: url(media/imagens/fundo-madeira.jpg) top center /cover no-repeat ;
 }
 
+/* Cel */
 #cel {
     position: absolute;
     top: 50%;
@@ -30,3 +31,15 @@ iframe{
     background-size: contain;
 }
 
+/* Icons */
+#icon {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    position: absolute;
+}
+#icon > a > img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
