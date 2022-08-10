@@ -1,0 +1,32 @@
+/* Reset */
+*{margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+
+/* Body */
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(media/imagens/fundo-madeira.jpg) top center /cover no-repeat ;
+}
+
+#cel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 627px;
+    width: 311px;
+    background: url(media/imagens/frame-iphone.png) no-repeat;
+}
+
+iframe{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+    background: url(media/imagens/tela-home.jpg);
+    background-size: contain;
+}
+
